@@ -4,9 +4,9 @@ import Nav from "react-bootstrap/Nav";
 
 function Footer() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="md">
       <Nav>
-        <Navbar.Brand>Contact:</Navbar.Brand>
+        <h2>Contact: </h2>
         <Nav.Link
           href="https://github.com/karjenwong/"
           target="_blank"

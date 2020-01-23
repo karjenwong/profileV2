@@ -91,3 +91,10 @@ html {
   }
 }
 
+@media (min-width: 768px) { 
+  .navbar {
+    display:flex;
+    justify-content: center;
+  } 
+}
+
