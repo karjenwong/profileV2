@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 
 function Footer() {
   return (
-    <Navbar bg="light" expand="md" className="justify">
+    <Navbar bg="light" expand="md" className="justify" sticky="bottom">
       <Nav>
         <h2>Contact: </h2>
         <Nav.Link

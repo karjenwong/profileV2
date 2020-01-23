@@ -19,7 +19,7 @@ function PortfolioGallery() {
 
   const slides = data.map((item, i) => {
     return (
-      <Carousel.Item>
+      <Carousel.Item key={i} >
         <img className="image" src={item.directory} alt={"slide " + i} />
         <Carousel.Caption>
           <h3>Project: {item.title}</h3>
