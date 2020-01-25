@@ -13,7 +13,7 @@ function App() {
     <div id="home" className="">
       <Navbar collapseOnSelect fixed="top" expand="lg">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" className="fontSize">
           <Nav>
             <Nav.Link href="#hero">Home</Nav.Link>
             <Nav.Link href="#portfolio">Portfolio</Nav.Link>
