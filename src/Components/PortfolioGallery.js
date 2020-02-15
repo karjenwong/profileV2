@@ -14,6 +14,12 @@ function PortfolioGallery() {
       caption: "A simple login form using Ajax, jquery, and php.",
       directory: "/images/login.png",
       git: "https://github.com/karjenwong/Login_Form_Basic"
+    },
+    {
+      title: "Vancity Hackathon",
+      caption: "Colloboration with UX designers and a data scientist to create a tool within the Vancity App to help users add/modify financial plans",
+      directory: "/images/vancityMobileView.png",
+      git: "https://github.com/karjenwong/Hackathon-financial_goal_planner"
     }
   ];
 

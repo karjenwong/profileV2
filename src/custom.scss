@@ -40,6 +40,9 @@ html {
 }
 #basic-navbar-nav {
   justify-content: center;
+  div a{
+    color:white!important;
+  }
 }
 
 .underline {
@@ -81,8 +84,17 @@ html {
   font-size:2rem;
 }
 
+.nav-link{
+  font-weight: 800;
+  font-stretch: ultra-expanded;
+}
+
 #footer {
   margin-bottom:1rem;
+}
+
+#mainNavBar {
+  color:white !important;
 }
 @media screen and (min-width: 992px) {
   .card{

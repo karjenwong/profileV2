@@ -11,7 +11,7 @@ import Footer from "./Components/Footer";
 function App() {
   return (
     <div id="home" className="">
-      <Navbar collapseOnSelect fixed="top" expand="lg">
+      <Navbar collapseOnSelect fixed="top" expand="lg" > 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="fontSize">
           <Nav>
